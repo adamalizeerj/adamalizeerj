@@ -1,73 +1,95 @@
-# Hello! I am Adam
-<a href="https://linkedin.com/in/aalizeerj"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&LogoColor=white" /></a>
+# Adam
 
-I'm an undergraduate studying Computer Information Technology with a focus in Cybersecurity, with a profound interest in Information Security and solving complex problems.
+Cybersecurity undergraduate focused on **detection engineering, cloud security, and security automation**. I design, build, and document defensive systems end to end, telemetry pipelines, behavioral detections, and automated incident response, as reproducible IaC, then validate them with adversary emulation.
 
-I've developed a passion for Cybersecurity through my journey in Computer Information Technology. and I'm now eager to grow and learn more about problem-solving in Cybersecurity, specifically aiming for Internship and Fellowship opportunities where I can apply all the skills I have gained so far
+CompTIA Security+ certified. CySA+ in progress. Graduating 2028.
 
-| Skill                                            | Associated Project          |
-|--------------------------------------------------|-----------------------------|
-| SIEM Engineering and Implementation              | <a href="https://docs.google.com/document/d/1mGtmhN3VBr_CUe1uYw8b4wloucvx-HSQlRPizf9foZY/edit?usp=sharing">Azure SOC Honeypot + SIEM/XDR Detection Engineering and Automated Response<a/>|
-| Detection Engineering                            | <a hrref="">All Projects<a/>|
-| SOAR Automation                                  | <a href="https://docs.google.com/document/d/1mGtmhN3VBr_CUe1uYw8b4wloucvx-HSQlRPizf9foZY/edit?usp=sharing">Azure SOC Honeypot + SIEM/XDR Detection Engineering and Automated Response<a/>|
-| Threat Intelligence Integration                  | <a href="https://docs.google.com/document/d/1mGtmhN3VBr_CUe1uYw8b4wloucvx-HSQlRPizf9foZY/edit?usp=sharing">Azure SOC Honepot<a/>|
-| Cloud Security Operations                        | <a href="https://docs.google.com/document/d/1mGtmhN3VBr_CUe1uYw8b4wloucvx-HSQlRPizf9foZY/edit?usp=sharing">Azure SOC Honeypot<a/>|
-| Endpoint Telemetry & EDR Concepts                | <a href="https://docs.google.com/document/d/1IlH-glF9YIqhUR395KhtR_XtmAxsK6doThI1eOZDko0/edit?usp=sharing">SIEM/XDR Detection Engineering and Automated Response<a/>|
-| Incident Detection & Response                    | <a href="https://docs.google.com/document/d/1IlH-glF9YIqhUR395KhtR_XtmAxsK6doThI1eOZDko0/edit?usp=sharing">Azure SOC Honeypot + SIEM/XDR Detection Engineering and Automated Response<a/>|
-| Gap Analysis & Detection Tuning                  | <a href="https://docs.google.com/document/d/1IlH-glF9YIqhUR395KhtR_XtmAxsK6doThI1eOZDko0/edit?usp=sharing">SIEM/XDR Detection Engineering and Automated Response<a/>|
-| Network Security Engineering                     | <a href="https://docs.google.com/document/d/1qs1uD6J1ngPOi4Yjyv0pII_JSfZpC2U4KBtrD5zNc0w/edit?usp=sharing">Segmented IDS/IPS Network Security Lab<a/>|
-| IDS/IPS Implementation & Tuning                  | <a href="https://docs.google.com/document/d/1qs1uD6J1ngPOi4Yjyv0pII_JSfZpC2U4KBtrD5zNc0w/edit?usp=sharing">Segmented IDS/IPS Network Security Lab<a/>|
-| Packet and Traffic Analysis                      | <a href="https://docs.google.com/document/d/1qs1uD6J1ngPOi4Yjyv0pII_JSfZpC2U4KBtrD5zNc0w/edit?usp=sharing">Segmented IDS/IPS Network Security Lab<a/>|
-| Adversary Emulation & Purple Teaming             | <a href="https://docs.google.com/document/d/1qs1uD6J1ngPOi4Yjyv0pII_JSfZpC2U4KBtrD5zNc0w/edit?usp=sharing">Segmented IDS/IPS Network Security Lab + SIEM/XDR Detection Engineering and Automated Response<a/>|
+<a href="https://linkedin.com/in/aalizeerj"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-## Tools
+---
 
-## Cloud / SOC
-<div>
-  <img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
-<img src="https://img.shields.io/badge/Microsoft%20Sentinel-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
-<img src="https://img.shields.io/badge/Azure%20Monitor-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
-<img src="https://img.shields.io/badge/Log%20Analytics-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
-<img src="https://img.shields.io/badge/Microsoft%20Defender%20TI-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
-</div>
+## Focus Areas
 
-## SIEM / XDR
-<div>
-  <img src="https://img.shields.io/badge/Wazuh-005571?style=for-the-badge&logo=wazuh&logoColor=white"/>
-<img src="https://img.shields.io/badge/Elastic%20(ELK)-005571?style=for-the-badge&logo=elastic&logoColor=white"/>
-<img src="https://img.shields.io/badge/Sysmon-003366?style=for-the-badge&logo=windows&logoColor=white"/>
-</div>
+- **Detection Engineering** — behavioral and signature-based detections, alert tuning, false-positive reduction, MITRE ATT&CK mapping
+- **Cloud Security** — AWS and Azure telemetry, IAM analysis, audit logging, threat detection
+- **Security Automation / SOAR** — orchestrated, auditable incident response with human-in-the-loop controls
+- **Incident Response** — triage, containment, forensic evidence capture, runbook development
+- **Infrastructure-as-Code** — reproducible security infrastructure built and torn down with Terraform
 
-## Network Security
-<div>
-  <img src="https://img.shields.io/badge/Wazuh-005571?style=for-the-badge&logo=wazuh&logoColor=white"/>
-<img src="https://img.shields.io/badge/Elastic%20(ELK)-005571?style=for-the-badge&logo=elastic&logoColor=white"/>
-<img src="https://img.shields.io/badge/Sysmon-003366?style=for-the-badge&logo=windows&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
-</div>
+---
 
-## OS / Infrastructure
-<div>
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
-<img src="https://img.shields.io/badge/Windows%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
-<img src="https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
-</div>
+## Certifications
 
-## Adversary Emulation / Security Testing
-<div>
-  <img src="https://img.shields.io/badge/Kali%20Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nmap-00457C?style=for-the-badge&logo=nmap&logoColor=white"/>
-<img src="https://img.shields.io/badge/Hydra-6A1B9A?style=for-the-badge&logo=hackaday&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mimikatz-8B0000?style=for-the-badge&logo=github&logoColor=white"/>
-</div>
+- CompTIA Security+
+- CompTIA CySA+ *(in progress)*
 
-## Frameworks
-<div>
-  <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-000000?style=for-the-badge&logo=mitre&logoColor=white"/>
-</div>
+---
 
-## Projects
-- Segmented IDS/IPS Network Security Lab
-- SIEM/XDR Detection Engineering and Automated Response
-- SIEM Gap Analysis + Tuning
-- Azure SOC Honeypot
+## Selected Projects
+
+### AWS Behavioral Anomaly Detection with SOAR Auto-Response
+A behavioral detection-and-response pipeline built entirely on native AWS services and managed with Terraform. It learns each IAM principal's normal behavior, flags activity that deviates from that baseline, and runs an automated, human-gated incident response playbook, containment, forensic evidence capture, notification, and incident ticketing.
+
+- Per-principal behavioral baselining with ASN enrichment and a warm-up guard, backed by DynamoDB
+- Six-step Step Functions playbook with a native callback-token human-approval gate
+- Detections and responses mapped to MITRE ATT&CK for Cloud and D3FEND
+- SOC-style runbooks and a full architecture diagram included
+
+**[View repository →](https://github.com/adamalizeerj/aws-anomaly-soar)**
+
+### DNS Tunneling Detection & Vulnerability Management
+A full vulnerability-management-lifecycle lab, from discovery through verified remediation, simulating a covert C2 channel tunneled through DNS, a technique that evades perimeter controls because firewalls rarely inspect DNS contents.
+
+- Five-VM isolated lab on Apple Silicon (pfSense, Windows victim, BIND9 resolver, Kali attacker, Wazuh SIEM)
+- Discovered via internal red-team simulation, scored with CVSS 4.0, mapped to ATT&CK T1071.004 and T1572
+- Four-control defense-in-depth remediation aligned to NIST SP 800-40r4 and the CISA Vulnerability Management Lifecycle
+- Custom Suricata rules, BIND9 Response Policy Zones, manual ARM64 Wazuh stack, and Slack alerting, with end-to-end remediation verification
+
+**[View repository →](https://github.com/adamalizeerj/dns-tunnel-vuln-mgmt)**
+
+---
+
+## Skills & Tooling
+
+**Cloud & SOC**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Microsoft Sentinel](https://img.shields.io/badge/Microsoft%20Sentinel-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+
+**SIEM & Detection**
+
+![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=for-the-badge&logo=wazuh&logoColor=white)
+![Elastic](https://img.shields.io/badge/Elastic%20(ELK)-005571?style=for-the-badge&logo=elastic&logoColor=white)
+![Sysmon](https://img.shields.io/badge/Sysmon-003366?style=for-the-badge&logo=windows&logoColor=white)
+![Suricata](https://img.shields.io/badge/Suricata-EE3124?style=for-the-badge&logoColor=white)
+
+**Automation & Infrastructure-as-Code**
+
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+**Network Security**
+
+![pfSense](https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+
+**Adversary Emulation & Detection Validation**
+
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-00457C?style=for-the-badge&logo=nmap&logoColor=white)
+
+**Frameworks & Standards**
+
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-000000?style=for-the-badge&logo=mitre&logoColor=white)
+![NIST](https://img.shields.io/badge/NIST-005EA2?style=for-the-badge&logoColor=white)
+
+---
+
+## GitHub Activity
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=adamalizeerj&show_icons=true&hide_border=true&theme=github_dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adamalizeerj&layout=compact&hide_border=true&theme=github_dark)
