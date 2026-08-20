@@ -4,6 +4,7 @@
 <rect x="0.5" y="0.5" width="819" height="261" rx="10" fill="#ffffff" stroke="#d0d7de"/>
 <text class="h" x="28" y="38" fill="#1f2328">Adam Alizeerj</text>
 <text class="sub" x="792" y="38" text-anchor="end" fill="#59636e">@adamalizeerj</text>
+<text class="sub" x="28" y="59" fill="#59636e">Security engineer. Detection and automated response for cloud, network, and LLM systems. I…</text>
 <line x1="28" y1="74" x2="792" y2="74" stroke="#d1d9e0"/>
 <text class="n" x="28" y="112" fill="#1f2328">5</text>
 <text class="l" x="28" y="130" fill="#59636e">public repos</text>
@@ -20,18 +21,18 @@
 <text class="l" x="628" y="112" fill="#59636e">with CI</text>
 <rect x="586" y="117" width="120" height="3" rx="1.5" fill="#eaeef2"/>
 <rect x="586" y="117" width="24" height="3" rx="1.5" fill="#0969da"/>
-<text class="k" x="438" y="138" fill="#1f2328">3/5</text>
+<text class="k" x="438" y="138" fill="#1f2328">4/5</text>
 <text class="l" x="480" y="138" fill="#59636e">described</text>
 <rect x="438" y="143" width="120" height="3" rx="1.5" fill="#eaeef2"/>
-<rect x="438" y="143" width="72" height="3" rx="1.5" fill="#0969da"/>
+<rect x="438" y="143" width="96" height="3" rx="1.5" fill="#0969da"/>
 <text class="k" x="586" y="138" fill="#1f2328">1/5</text>
 <text class="l" x="628" y="138" fill="#59636e">licensed</text>
 <rect x="586" y="143" width="120" height="3" rx="1.5" fill="#eaeef2"/>
 <rect x="586" y="143" width="24" height="3" rx="1.5" fill="#0969da"/>
 <text class="l" x="28" y="185" fill="#59636e">LANGUAGES BY REPOSITORY</text>
 <rect x="28" y="196" width="764" height="9" rx="4.5" fill="#eaeef2"/>
-<rect x="28" y="196" width="764" height="9" fill="#3572A5"><title>Python: 2 repos</title></rect>
+<rect x="28" y="196" width="764" height="9" fill="#3572A5"><title>Python: 3 repos</title></rect>
 <circle cx="32" cy="224" r="4" fill="#3572A5"/>
-<text class="l" x="43" y="228" fill="#1f2328">Python <tspan fill="#59636e">2</tspan></text>
+<text class="l" x="43" y="228" fill="#1f2328">Python <tspan fill="#59636e">3</tspan></text>
 <text class="f" x="28" y="248" fill="#59636e">Generated 2026-08-20 from the GitHub REST API. Counts cover public, non-archived repositories owned by this account.</text>
 </svg>
