@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="llm-sectest: Attack battery with a programmatic oracle per test, so a finding is proven rather than eyeballed">
+<title>llm-sectest</title>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}</style>
+<rect width="1280" height="640" fill="#0d1117"/>
+<rect x="0" y="0" width="14" height="640" fill="#3fb950"/>
+<text x="82" y="118" fill="#3fb950" font-size="21" font-weight="700" letter-spacing="2.6">OWASP TOP 10 FOR LLM APPLICATIONS 2025</text>
+<text x="82" y="212" fill="#e6edf3" font-size="70" font-weight="700">llm-sectest</text>
+<text x="82" y="268" fill="#9198a1" font-size="26">Attack battery with a programmatic oracle per test, so a finding is proven</text>
+<text x="82" y="304" fill="#9198a1" font-size="26">rather than eyeballed</text>
+<line x1="82" y1="354" x2="1198" y2="354" stroke="#30363d" stroke-width="2"/>
+<text x="82" y="432" fill="#e6edf3" font-size="52" font-weight="700">5 of 6</text>
+<text x="82" y="466" fill="#9198a1" font-size="21">exploitable before</text>
+<text x="422" y="432" fill="#e6edf3" font-size="52" font-weight="700">0 of 6</text>
+<text x="422" y="466" fill="#9198a1" font-size="21">exploitable after</text>
+<text x="762" y="432" fill="#e6edf3" font-size="52" font-weight="700">$0</text>
+<text x="762" y="466" fill="#9198a1" font-size="21">all inference local</text>
+<rect x="82" y="528" width="223" height="42" rx="21" fill="none" stroke="#30363d" stroke-width="2"/>
+<text x="99" y="555" fill="#9198a1" font-size="19">Prompt injection</text>
+<rect x="319" y="528" width="212" height="42" rx="21" fill="none" stroke="#30363d" stroke-width="2"/>
+<text x="336" y="555" fill="#9198a1" font-size="19">Output handling</text>
+<rect x="545" y="528" width="200" height="42" rx="21" fill="none" stroke="#30363d" stroke-width="2"/>
+<text x="562" y="555" fill="#9198a1" font-size="19">Prompt leakage</text>
+<rect x="759" y="528" width="107" height="42" rx="21" fill="none" stroke="#30363d" stroke-width="2"/>
+<text x="776" y="555" fill="#9198a1" font-size="19">pytest</text>
+<text x="1198" y="118" fill="#9198a1" font-size="21" text-anchor="end">github.com/adamalizeerj</text>
+</svg>

@@ -1,0 +1,84 @@
+# Regenerates the self-hosted profile card so it never becomes a lie.
+#
+# SETUP
+#   1. In the repository named exactly your GitHub username (the one whose
+#      README.md renders on your profile), create these paths:
+#         .github/workflows/profile-card.yml   <- this file
+#         scripts/make_stats_svg.py            <- copy from this skill
+#         assets/                              <- output directory
+#   2. Commit and push. Run it once by hand from the Actions tab
+#      ("Run workflow") to produce the first SVG.
+#   3. Embed the result in your README:
+#
+#        <picture>
+#          <source media="(prefers-color-scheme: dark)" srcset="assets/profile-card-dark.svg">
+#          <img alt="Profile summary: 18 public repositories, primarily Python and Go"
+#               src="assets/profile-card-light.svg">
+#        </picture>
+#
+# WHY THIS RATHER THAN A THIRD-PARTY CARD
+#   The SVG is committed to your own repository, so it renders instantly, never
+#   fails under someone else's rate limit, and does not look like the card on
+#   thousands of other profiles. This copy of make_stats_svg.py reports how many
+#   repositories were pushed to in the last 90 days instead of a star count,
+#   because stars measure audience and recency measures whether the work is alive.
+#
+# A NOTE ON THE CONTRIBUTION GRAPH
+#   Commits pushed by github-actions[bot] are attributed to the bot, not to you,
+#   so this workflow does not pad your contribution graph. That is deliberate:
+#   an automated commit is not activity, and a graph inflated by scheduled jobs
+#   is the thing described in references/integrity-and-privacy.md.
+
+name: Refresh profile card
+
+on:
+  schedule:
+    # Mondays at 06:00 UTC. Scheduled runs on a free account can be delayed
+    # during busy periods; that is fine for a weekly refresh.
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}
+
+# Least privilege: the job only needs to write back to this repository.
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-card
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate the card
+        env:
+          # The automatic token raises the API limit well above the
+          # unauthenticated 60/hour and needs no secret of your own.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/make_stats_svg.py "${{ github.repository_owner }}" \
+            --out assets/ \
+            --theme both \
+            --deep
+
+      - name: Commit only if something changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-card-light.svg assets/profile-card-dark.svg
+          if git diff --staged --quiet; then
+            echo "Card unchanged, nothing to commit."
+          else
+            git commit -m "chore: refresh profile card"
+            git push
+          fi

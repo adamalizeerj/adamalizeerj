@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89" height="28" viewBox="0 0 89 28" role="img" aria-label="Resume: PDF">
+<title>Resume: PDF</title>
+<rect x="0" y="0" width="89" height="28" rx="6" fill="#1f6feb"/>
+<g transform="translate(9, 6)"><path fill="#fff" d="M4 1.6h5.2L13 5.4V14a.8.8 0 0 1-.8.8H4a.8.8 0 0 1-.8-.8V2.4c0-.44.36-.8.8-.8zm5 1.2v2.6h2.6zM5.2 8h5.6v1.2H5.2zm0 2.6h5.6v1.2H5.2z"/></g>
+<text x="31" y="18.5" fill="#ffffff" font-size="12.5" font-weight="600"
+ textLength="45.6" lengthAdjust="spacingAndGlyphs"
+ font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">Resume</text>
+</svg>
