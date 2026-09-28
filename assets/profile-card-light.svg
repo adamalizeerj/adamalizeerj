@@ -8,7 +8,7 @@
 <line x1="28" y1="74" x2="792" y2="74" stroke="#d1d9e0"/>
 <text class="n" x="28" y="112" fill="#1f2328">5</text>
 <text class="l" x="28" y="130" fill="#59636e">public repos</text>
-<text class="n" x="160" y="112" fill="#1f2328">5</text>
+<text class="n" x="160" y="112" fill="#1f2328">2</text>
 <text class="l" x="160" y="130" fill="#59636e">pushed in 90 days</text>
 <text class="n" x="292" y="112" fill="#1f2328">1</text>
 <text class="l" x="292" y="130" fill="#59636e">languages</text>
@@ -34,5 +34,5 @@
 <rect x="28" y="196" width="764" height="9" fill="#3572A5"><title>Python: 4 repos</title></rect>
 <circle cx="32" cy="224" r="4" fill="#3572A5"/>
 <text class="l" x="43" y="228" fill="#1f2328">Python <tspan fill="#59636e">4</tspan></text>
-<text class="f" x="28" y="248" fill="#59636e">Generated 2026-09-21 from the GitHub REST API. Counts cover public, non-archived repositories owned by this account.</text>
+<text class="f" x="28" y="248" fill="#59636e">Generated 2026-09-28 from the GitHub REST API. Counts cover public, non-archived repositories owned by this account.</text>
 </svg>
